@@ -21,11 +21,17 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
+          bright: "hsl(var(--primary-bright))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
+          bright: "hsl(var(--secondary-bright))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +63,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        glass: {
+          bg: "var(--glass-bg)",
+          border: "var(--glass-border)",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-secondary": "var(--gradient-secondary)",
+        "gradient-success": "var(--gradient-success)",
+        "gradient-glass": "var(--gradient-glass)",
+        "gradient-mesh": "var(--gradient-mesh)",
       },
       borderRadius: {
         lg: "var(--radius)",
